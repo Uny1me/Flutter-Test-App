@@ -1,0 +1,35 @@
+ child: ElevatedButton(
+    style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all<Color>(Colors.black87),
+    ),
+    child: const Text(
+        'SHOP MEN',
+
+        style: TextStyle(
+            letterSpacing: .2,
+            fontWeight: FontWeight.w400
+        ),
+    ),
+),
+we can also use ElevatedButton.icon
+    ElevatedButton.icon(onPressed: onPressed, icon: icon, label: label)
+Also IconButton
+
+Padding and Margin
+    padding: const EdgeInsets.all(12.0),
+    padding: const EdgeInsets.symmetric(vertical: 12.0),
+Icons
+    child: Icon(Icons.arrow_upward,
+    size: 12,
+    color: Colors.red
+    ),
+Container
+   child: Container(
+        padding: EdgeInsets.all(12)
+        padding: EdgeInsets.symmetric(vertical?: 12, horizontal?:14)
+        padding: EdgeInsets.fromLTRB(12,14,20,25)
+        // All in pixels
+        works for margin as well
+    )
+Padding
+    works as container but just padding style
